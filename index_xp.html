@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Conception et gestion de projets informatiques | Développement Web | Création de sites Internet sur mesure | Codage avec les langages et technologies Python / Django / Flask, SQL, HTML / CSS / JavaScript, jQuery / Bootstrap / Materialize CSS."
+    />
+    <meta name="author" content="Lowic MANGIN" />
+
+    <title>Développeur Web freelance | Lowic Mangin</title>
+
+    <link rel="canonical" href="https://lowic.fr" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.4.2/css/brands.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css"
+    />
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Materialize CSS core -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+      <nav id="navbar">
+        <div class="nav-wrapper cyan darken-4">
+          <!-- LOGO -->
+          <a class="brand-logo" id="logo-container" href="#nabar">
+            <!-- full logo on desktop and tablet -->
+            <img
+              class="img-logo hide-on-small-only"
+              src="img/dark_logo.png"
+              alt="Logo lowic.fr"
+            />
+            <!-- small logo on smartphone -->
+            <img
+              class="img-logo hide-on-med-and-up"
+              id="small-logo"
+              src="img/dark_sm_logo.png"
+              alt="Logo lowic.fr en version réduite"
+            />
+          </a>
+
+          <!-- MENU -->
+          <!-- navbar menu on desktop -->
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#"> <i class="material-icons">home</i> </a>
+            </li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- navbar menu on smartphone or tablet -->
+          <ul class="sidenav" id="nav-mobile">
+            <li>
+              <a href="#"> <i class="material-icons">home</i> </a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li class="divider"></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="sidenav-trigger" href="#" data-target="nav-mobile"
+            ><i class="material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- Floating Action Button : to Contact Section -->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large amber darken-2" href="#contact">
+          <i class="material-icons">people</i>
+        </a>
+      </div>
+    </main>
+
+    <!-- Banner with parallax effect -->
+    <div class="parallax-container" id="banner">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br /><br />
+
+          <div class="row center">
+            <h3 class="header col s12 light amber-text text-darken-2">
+              Lowic Mangin
+            </h3>
+          </div>
+          <h1 class="header center cyan-text text-darken-2">Développeur Web</h1>
+
+          <br /><br />
+
+          <!-- Work in progress panel -->
+          <div class="row">
+            <div
+              class="col l4 offset-l4 m8 offset-m2 s10 offset-s1 card-panel amber darken-4"
+            >
+              <div class="white-text">
+                <h4 class="center">Site en construction</h4>
+                <br />
+              </div>
+            </div>
+          </div>
+
+          <br /><br />
+        </div>
+      </div>
+
+      <div class="parallax">
+        <img src="../img/banner.jpg" alt="Aperçu du code le page" />
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="container">
+      <section class="section" id="services">
+        <!-- - headline -->
+        <div class="row center">
+          <h4 class="header col s12 light">
+            Au plus près de vos besoins, des prestations sur mesure
+          </h4>
+          <h2 class="header col s12 cyan-text text-darken-2">Mes services</h2>
+        </div>
+
+        <!-- major services -->
+        <div class="row center">
+          <!-- 1st major service -->
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="amber-text text-darken-2">
+                <i class="material-icons medium">devices</i>
+              </h2>
+              <h5 class="cyan-text text-darken-4">Création de site Web</h5>
+              <p>
+                De l'analyse de vos besoins à la mise en ligne, j'assure une
+                conception concertée et une technique soignée.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2nd major services -->
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="amber-text text-darken-2">
+                <i class="material-icons medium">keyboard</i>
+              </h2>
+              <h5 class="cyan-text text-darken-4">Codage informatique</h5>
+              <p>
+                Au sein de votre équipe de développeurs, j'apporte mon expertise
+                en Python et mon sens du collectif.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3rd major services -->
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="amber-text text-darken-2">
+                <i class="material-icons medium">event_note</i>
+              </h2>
+              <h5 class="cyan-text text-darken-4">Gestion de projet</h5>
+              <p>
+                Au service de votre projet informatique, je conçois, planifie et
+                coordonne sa réalisation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Skills section -->
+    <div class="parallax-container" id="skills">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br />
+
+          <div class="row center">
+            <h4 class="header col s12 light white-text">
+              Un artisan du code, amoureux de ses technologies
+            </h4>
+          </div>
+          <h2 class="header center amber-text text-darken-2">
+            Mes compétences
+          </h2>
+
+          <br />
+          <!-- Python / Django / Flask ratings -->
+          <div class="row center">
+            <!-- Python rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  Python
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+            <!-- Django rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  Django
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+            <!-- Flask rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  Flask
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <!-- SQL / JavaScript / jQuery ratings -->
+          <div class="row center">
+            <!-- SQL rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  SQL
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+            <!-- JavaScript rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  JavaScript
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+            <!-- jQuery rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  jQuery
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <!-- HTML/CSS / Bootstrap / Materialize CSS -->
+          <div class="row center">
+            <!-- HTML/CSS rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  HTML/CSS
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+            <!-- Bootstrap rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  Bootstrap
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                  <i class="material-icons tiny cyan-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+            <!-- Materialize CSS rating -->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h5 class="skill white-text">
+                  Materialize CSS
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star</i
+                  >
+                  <i class="material-icons tiny amber-text text-lighten-1"
+                    >star_border</i
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <br />
+        </div>
+      </div>
+
+      <div class="parallax">
+        <img src="../img/banner.jpg" alt="Unsplashed background img 1" />
+      </div>
+    </div>
+
+    <!-- ********************************************* -->
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Contact Us</h4>
+            <p class="left-align light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              scelerisque id nunc nec volutpat. Etiam pellentesque tristique
+              arcu, non consequat magna fermentum ac. Cras ut ultricies eros.
+              Maecenas eros justo, ullamcorper a sapien id, viverra ultrices
+              eros. Morbi sem neque, posuere et pretium eget, bibendum
+              sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis
+              nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa
+              odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget
+              dignissim mauris, non tristique erat. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia Curae;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">
+              A modern responsive front-end framework based on Material Design
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="background3.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Company Bio</h5>
+            <p class="grey-text text-lighten-4">
+              We are a team of college students working on this project like
+              it's our full time job. Any amount would help support and continue
+              development on this project and is greatly appreciated.
+            </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made by
+          <a class="brown-text text-lighten-3" href="http://materializecss.com"
+            >Materialize</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Materiallize CSS JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

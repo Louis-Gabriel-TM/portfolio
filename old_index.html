@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta
       name="description"
       content="Conception et gestion de projets informatiques | Développement Web | Création de sites Internet sur mesure | Codage avec les langages et technologies Python / Django / Flask, SQL, HTML / CSS / JavaScript, jQuery / Bootstrap / Materialize CSS."
@@ -19,8 +20,8 @@
 
     <!-- Icons -->
     <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
     <link
       href="https://use.fontawesome.com/releases/v5.4.2/css/brands.css"
@@ -31,6 +32,9 @@
       href="https://use.fontawesome.com/releases/v5.4.2/css/fontawesome.css"
     />
 
+    <!-- Fonts -->
+    <link rel="stylesheet" href="" />
+
     <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -40,82 +44,53 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
+    <!-- Twitter -->
+
+    <!-- Facebook -->
+
     <!-- Customized CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
 
   <body>
-    <!-- HEADER -->
-    <header>
-      <div class="navbar-fixed">
-        <nav id="navbar">
-          <div class="nav-wrapper cyan darken-4">
-            <a class="brand-logo" href="#navbar">
-              <!-- full logo on desktop and tablet -->
-              <img
-                class="img-logo hide-on-small-only"
-                src="img/dark_logo.png"
-                alt="Logo lowic.fr"
-              />
-              <!-- small logo on smartphone -->
-              <img
-                class="img-logo hide-on-med-and-up"
-                id="small-logo"
-                src="img/dark_sm_logo.png"
-                alt="Logo lowic.fr en version réduite"
-              />
-            </a>
-
-            <!-- nav menu on desktop -->
-            <ul class="right hide-on-med-and-down">
-              <li class="active">
-                <a href="#"> <i class="material-icons">home</i> </a>
-              </li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Compétences</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">À propos</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            <!-- sidenav menu on smartphone and tablet -->
-            <ul class="sidenav" id="slide-out">
-              <li>
-                <a href="#"><i class="material-icons">home</i></a>
-              </li>
-              <li><div class="divider"></div></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Compétences</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">À propos</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#" data-target="slide-out" class="sidenav-trigger"
-              ><i class="material-icons">menu</i></a
-            >
-          </div>
-        </nav>
+    <!-- NAVBAR -->
+    <nav class="navbar-fixed" id="navbar">
+      <div class="nav-wrapper cyan darken-4">
+        <a class="brand-logo" href="#navbar">
+          <img
+            src="img/dark_sm_logo.png"
+            alt="Logo de la marque"
+            style="height: 54px; padding: 4px;"
+          />
+        </a>
+        <ul class="right hide-on-med-and-down" id="nav-mobile">
+          <li class="active">
+            <a href="#"> <i class="material-icons">home</i> </a>
+          </li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-    </header>
+    </nav>
 
     <!-- MAIN CONTENT -->
     <main class="container center">
-      <!-- Floating Action Button : to Contact Section -->
       <div class="fixed-action-btn">
-        <a class="btn-floating btn-large amber darken-2" href="#contact">
+        <a class="btn-floating btn-large orange darken-1" href="#contact">
           <i class="material-icons">people</i>
         </a>
       </div>
 
-      <!-- Home Section -->
-      <section class="valign-wrapper" id="home">
+      <!-- HOME -->
+      <section class="valigne-wrapper" id="home">
         <h3 class="white-text">Lowic Mangin</h3>
         <h1 class="white-text">Développeur informatique freelance</h1>
 
-        <!-- Work in progress panel -->
         <div class="row">
-          <div
-            class="col l4 offset-l4 m8 offset-m2 s10 offset-s1 card-panel amber darken-2"
-          >
+          <div class="col s4 offset-s4 card-panel amber darken-2">
             <div class="white-text">
               <h4 class="center">Site en construction</h4>
               <br />
@@ -124,67 +99,65 @@
         </div>
       </section>
 
-      <!-- Services Section -->
+      <!-- SERVICES -->
       <section id="services">
         <h2>Mes services</h2>
         <h3>Au plus près de vos besoins, des prestations sur mesure</h3>
       </section>
 
-      <!-- Skills Section -->
+      <!-- SKILLS -->
       <section id="skills">
         <h2>Mes compétences</h2>
         <h3>Un artisan du code, amoureux de ses technologies</h3>
       </section>
 
-      <!-- Portfolio Section -->
+      <!-- PORTFOLIO -->
       <section id="portfolio">
         <h2>Mon portfolio</h2>
         <h3>Quelques-uns de mes précédents projets</h3>
       </section>
 
-      <!-- About Section -->
+      <!-- ABOUT -->
       <section id="about">
         <h2>À propos</h2>
         <h3>Une somme d'expériences au service de votre projet</h3>
       </section>
 
-      <!-- Contact Section -->
+      <!-- CONTACT -->
       <section id="contact">
         <h2>Faisons connaissance !</h2>
         <h4>Une question ? Un projet ? Contactez-moi !</h4>
       </section>
     </main>
 
-    <!-- FOOTER -->
     <footer class="page-footer cyan darken-4">
       <div class="row">
         <div class="col s5 offset-s1">
-          <h5>À propos de ce site</h5>
+          <h5>À propos de ce site web</h5>
           <p>
-            Cette page a été codée en HTML 5 / CSS 3 simplement. Les principes
-            du <em>material design</em> ont pu y être mis en oeuvre grâce à la
-            magie de la biblothèque Materialize CSS.
+            Cette page a été codée de zéro en HTML 5 / CSS 3. Les principes du
+            <em>material design</em> ont pu y être mis en oeuvre grâce à la
+            magie de la biblothèque
+            <a href="https://materializecss.com/" target="_blank"
+              >Materialize CSS</a
+            >.
           </p>
         </div>
         <div class="col offset-s2 s4">
+          <h5>
+            <a href="https://twitter.com/__L_Mangin__" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lowic-mangin/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </h5>
           <ul>
             <li>
-              <a href="https://twitter.com/__L_Mangin__" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/lowic-mangin/"
-                target="_blank"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li><h5>Lowic Mangin</h5></li>
-            <li>
-              <h6><i class="material-icons">mail</i>lowic.mangin@lowic.fr</h6>
-            </li>
-            <li>
-              <h6><i class="material-icons">phone</i>06.86.88.31.87</h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
+              illum ratione expedita nam inventore recusandae aliquid ab
+              doloribus alias. Quam doloremque saepe praesentium, enim quod
+              tempore eveniet mollitia hic fugit?
             </li>
           </ul>
         </div>
@@ -208,12 +181,11 @@
       </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- Materiallize CSS JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <script src="js/script.js"></script>
+    <!-- jQuery -->
   </body>
 </html>
