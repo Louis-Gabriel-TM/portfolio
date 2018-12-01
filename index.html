@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Conception et gestion de projets informatiques | Développement Web | Création de sites Internet sur mesure | Codage avec les langages et technologies Python / Django / Flask, SQL, HTML / CSS / JavaScript, jQuery / Bootstrap / Materialize CSS."
+      content="Conception et gestion de projets informatiques | Développement web | Création de sites internet sur mesure | Codage avec les langages et technologies Python / Django / Flask, SQL, HTML / CSS / JavaScript, jQuery / Bootstrap / Materialize CSS"
     />
-    <meta name="author" content="Lowic MANGIN" />
+    <meta name="author" content="Lowic Mangin" />
 
-    <title>Développeur Web freelance | Lowic Mangin</title>
+    <title>Développeur web freelance | Lowic Mangin</title>
 
     <link rel="canonical" href="https://lowic.fr" />
 
@@ -32,7 +32,7 @@
     />
 
     <!-- Reset CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
 
     <!-- Materialize CSS core -->
     <link
@@ -40,156 +40,208 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
-    <!-- Customized CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
 
   <body>
-    <!-- HEADER -->
-    <header>
-      <div class="navbar-fixed">
-        <nav id="navbar">
-          <div class="nav-wrapper cyan darken-4">
-            <a class="brand-logo" href="#navbar">
-              <!-- full logo on desktop and tablet -->
-              <img
-                class="img-logo hide-on-small-only"
-                src="img/dark_logo.png"
-                alt="Logo lowic.fr"
-              />
-              <!-- small logo on smartphone -->
-              <img
-                class="img-logo hide-on-med-and-up"
-                id="small-logo"
-                src="img/dark_sm_logo.png"
-                alt="Logo lowic.fr en version réduite"
-              />
-            </a>
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+      <nav id="navbar">
+        <div class="nav-wrapper cyan darken-4">
+          <!-- LOGO -->
+          <a class="brand-logo" href="#nabar">
+            <!-- full logo on desktop and tablet -->
+            <img
+              class="img-logo hide-on-small-only"
+              src="img/dark_logo.png"
+              alt="Logo lowic.fr"
+            />
 
-            <!-- nav menu on desktop -->
-            <ul class="right hide-on-med-and-down">
-              <li class="active">
-                <a href="#"> <i class="material-icons">home</i> </a>
-              </li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Compétences</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">À propos</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            <!-- sidenav menu on smartphone and tablet -->
-            <ul class="sidenav" id="slide-out">
-              <li>
-                <a href="#"><i class="material-icons">home</i></a>
-              </li>
-              <li><div class="divider"></div></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Compétences</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">À propos</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#" data-target="slide-out" class="sidenav-trigger"
-              ><i class="material-icons">menu</i></a
-            >
-          </div>
-        </nav>
-      </div>
-    </header>
+            <!-- small logo on smartphone -->
+            <img
+              class="img-logo hide-on-med-and-up"
+              id="small-logo"
+              src="img/dark_sm_logo.png"
+              alt="Logo lowic.fr en version réduite"
+            />
+          </a>
+
+          <!-- MENU -->
+
+          <!-- navbar menu on desktop -->
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#"> <i class="material-icons">home</i> </a>
+            </li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#abilities">Compétences</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- navbar menu on smartphone or tablet -->
+          <ul class="sidenav" id="nav-mobile">
+            <li>
+              <a href="#"> <i class="material-icons">home</i> </a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#abilities">Compétences</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li class="divider"></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <a class="sidenav-trigger" href="#" data-target="nav-mobile"
+            ><i class="material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
 
     <!-- MAIN CONTENT -->
-    <main class="container center">
-      <!-- Floating Action Button : to Contact Section -->
-      <div class="fixed-action-btn">
-        <a class="btn-floating btn-large amber darken-2" href="#contact">
-          <i class="material-icons">people</i>
-        </a>
-      </div>
+    <main>
+      <!-- Floating Action Nutton: to Contact section -->
 
-      <!-- Home Section -->
-      <section class="valign-wrapper" id="home">
-        <h3 class="white-text">Lowic Mangin</h3>
-        <h1 class="white-text">Développeur informatique freelance</h1>
+      <!-- Banner with parallax effect -->
+      <div class="parallax-container" id="banner">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br /><br />
+            <div class="row center">
+              <h3 class="header col s12 light amber-text text-darken-2">
+                Lowic Mangin
+              </h3>
+              <h1 class="header col s12 cyan-text text-darken-2">
+                Développeur web
+              </h1>
 
-        <!-- Work in progress panel -->
-        <div class="row">
-          <div
-            class="col l4 offset-l4 m8 offset-m2 s10 offset-s1 card-panel amber darken-2"
-          >
-            <div class="white-text">
-              <h4 class="center">Site en construction</h4>
-              <br />
+              <br /><br />
+
+              <!-- work in progress panel -->
+              <div
+                class="col l4 offset-l4 m8 offset-m2 s10 offset-s1 card-panel amber darken-4"
+              >
+                <div class="white-text">
+                  <h4>Site en construction</h4>
+                  <br />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- Services Section -->
-      <section id="services">
-        <h2>Mes services</h2>
-        <h3>Au plus près de vos besoins, des prestations sur mesure</h3>
-      </section>
+        <div class="parallax"><img src="img/banner.jpg" alt="" /></div>
+      </div>
 
-      <!-- Skills Section -->
-      <section id="skills">
-        <h2>Mes compétences</h2>
-        <h3>Un artisan du code, amoureux de ses technologies</h3>
-      </section>
+      <!-- Services section -->
+      <div class="container">
+        <section class="section" id="services">
+          <!-- headline -->
+          <div class="row center">
+            <h4 class="header col s12 light">
+              Au plus près de vos besoins, des prestations sur mesure
+            </h4>
+            <h2 class="header col s12 cyan-text text-darken-2">Mes services</h2>
+          </div>
 
-      <!-- Portfolio Section -->
-      <section id="portfolio">
-        <h2>Mon portfolio</h2>
-        <h3>Quelques-uns de mes précédents projets</h3>
-      </section>
+          <!-- major services -->
+          <div class="row center">
+            <!-- 1st major service -->
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="amber-text text-darken-2">
+                  <i class="material-icons medium">devices</i>
+                </h2>
+                <h5 class="cyan-text text-darken-4">Création de site web</h5>
+                <p>
+                  De l'analyse de vos besoins à la mise en ligne, j'assure une
+                  conception concertée et une technique soignée.
+                </p>
+              </div>
+            </div>
 
-      <!-- About Section -->
-      <section id="about">
-        <h2>À propos</h2>
-        <h3>Une somme d'expériences au service de votre projet</h3>
-      </section>
+            <!-- 2nd major service -->
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="amber-text text-darken-2">
+                  <i class="material-icons medium">keyboard</i>
+                </h2>
+                <h5 class="cyan-text text-darken-4">Codage informatique</h5>
+                <p>
+                  Au sein de votre équipe de développeurs, j'apporte mon
+                  expertise et mon sens du collectif.
+                </p>
+              </div>
+            </div>
 
-      <!-- Contact Section -->
-      <section id="contact">
-        <h2>Faisons connaissance !</h2>
-        <h4>Une question ? Un projet ? Contactez-moi !</h4>
-      </section>
+            <!-- 3rd service -->
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="amber-text text-darken-2">
+                  <i class="material-icons medium">event_note</i>
+                </h2>
+                <h5 class="cyan-text text-darken-4">Gestion de projet</h5>
+                <p>
+                  Au service de votre projet informatique, je conçois, planifie
+                  et coordonne sa réalisation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Abilities section -->
+
+      <!-- Portfolio section -->
+
+      <!-- About section -->
+
+      <!-- Contact section -->
     </main>
 
     <!-- FOOTER -->
     <footer class="page-footer cyan darken-4">
       <div class="row">
-        <div class="col s5 offset-s1">
+        <!-- about this web page -->
+        <div class="col s6 offset-s1">
           <h5>À propos de ce site</h5>
           <p>
-            Cette page a été codée en HTML 5 / CSS 3 simplement. Les principes
-            du <em>material design</em> ont pu y être mis en oeuvre grâce à la
-            magie de la biblothèque Materialize CSS.
+            Cette page a été codée de zéro en HTML 5 / CSS 3. Les principes du
+            <em>material design</em> ont pu y être mise en oeuvre grâce à la
+            magie de la bibliothèque
+            <a href="https://materializecss.com/" target="_blank"
+              >Materialize CSS</a
+            >
           </p>
         </div>
-        <div class="col offset-s2 s4">
-          <ul>
-            <li>
-              <a href="https://twitter.com/__L_Mangin__" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/lowic-mangin/"
-                target="_blank"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li><h5>Lowic Mangin</h5></li>
-            <li>
-              <h6><i class="material-icons">mail</i>lowic.mangin@lowic.fr</h6>
-            </li>
-            <li>
-              <h6><i class="material-icons">phone</i>06.86.88.31.87</h6>
-            </li>
-          </ul>
+
+        <!-- Twitter and LinkedIn -->
+        <div class="col offset-s2 s3">
+          <h4>
+            <a
+              class="social-network"
+              href="https://twitter.com/__L_Mangin__"
+              target="_blank"
+            >
+              <i class="fab fa-twitter amber-text text-darken-2"></i>
+            </a>
+            <a
+              class="social-network"
+              href="https://www.linkedin.com/in/lowic-mangin/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in amber-text text-darken-2"></i>
+            </a>
+          </h4>
         </div>
       </div>
 
+      <!-- disclaimer -->
       <div class="footer-copyright">
         <div class="row center">
           <p>
@@ -207,13 +259,15 @@
         </div>
       </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Materiallize CSS JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script src="js/script.js"></script>
   </body>
+
+  <!-- JAVASCRIPT -->
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Materiallize CSS JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
 </html>
