@@ -29,6 +29,10 @@ a {
   height: 600px;
 }
 
+.section-start {
+  margin-top: 54px;
+}
+
 .social-network {
   margin: 0 10px 0 10px;
 }
@@ -39,7 +43,7 @@ a {
   }
 
   h2 {
-    font-size: 33 px;
+    font-size: 33px;
   }
 
   h3 {
