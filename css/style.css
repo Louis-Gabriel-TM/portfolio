@@ -20,6 +20,10 @@ a {
   height: 48px;
 }
 
+.sidenav {
+  width: 200px;
+}
+
 .parallax-container,
 .section {
   height: 600px;

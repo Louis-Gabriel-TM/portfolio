@@ -1,5 +1,7 @@
-$(function() {
+$(document).ready(function() {
   // Init Materialize CSS Components
-  $(".sidenav").sidenav();
+  $(".sidenav").sidenav({
+    menuWidth: 100
+  });
   $(".parallax").parallax();
 });

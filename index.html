@@ -50,7 +50,7 @@
       <nav id="navbar">
         <div class="nav-wrapper cyan darken-4">
           <!-- LOGO -->
-          <a class="brand-logo" href="#nabar">
+          <a class="brand-logo" href="#navbar">
             <!-- full logo on desktop and tablet -->
             <img
               class="img-logo hide-on-small-only"
@@ -81,26 +81,29 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
 
-          <!-- navbar menu on smartphone or tablet -->
-          <ul class="sidenav" id="nav-mobile">
-            <li>
-              <a href="#"> <i class="material-icons">home</i> </a>
-            </li>
-            <li class="divider"></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#abilities">Compétences</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">À propos</a></li>
-            <li class="divider"></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-
-          <a class="sidenav-trigger" href="#" data-target="nav-mobile"
+          <!-- side-navbar menu on smartphone or tablet -->
+          <a class="sidenav-trigger" href="#" data-target="slide-out"
             ><i class="material-icons">menu</i></a
           >
         </div>
       </nav>
     </div>
+
+    <!-- side-navbar content (smartphone or tablet) -->
+    <ul class="sidenav" id="slide-out">
+      <li>
+        <a class="waves-effect" href="#">
+          <i class="material-icons">home</i>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li><a class="waves-effect" href="#services">Services</a></li>
+      <li><a class="waves-effect" href="#abilities">Compétences</a></li>
+      <li><a class="waves-effect" href="#portfolio">Portfolio</a></li>
+      <li><a class="waves-effect" href="#about">À propos</a></li>
+      <li class="divider"></li>
+      <li><a class="waves-effect" href="#contact">Contact</a></li>
+    </ul>
 
     <!-- MAIN CONTENT -->
     <main>
