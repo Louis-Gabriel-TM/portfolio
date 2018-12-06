@@ -1,5 +1,9 @@
 a {
-  color: #ff9f00;
+  color: #263238;
+}
+
+a:hover {
+  color: #eceff1;
 }
 
 #home {
@@ -24,12 +28,21 @@ a {
   width: 200px;
 }
 
-.parallax-container,
-.section {
+.parallax-container {
   height: 600px;
 }
 
 .section-start {
+  margin-top: 54px;
+}
+
+section {
+  height: auto;
+}
+
+.section-divider {
+  background-color: #ffa000;
+  height: 4px;
   margin-top: 54px;
 }
 
@@ -56,6 +69,10 @@ a {
 
   h5 {
     font-size: 19px;
+  }
+
+  h6 {
+    font-size: 16px;
   }
 
   .section {
