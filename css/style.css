@@ -1,9 +1,9 @@
 a {
-  color: #263238;
+  color: #25c6da;
 }
 
 a:hover {
-  color: #eceff1;
+  color: #0097a7;
 }
 
 #home {
@@ -41,7 +41,7 @@ section {
 }
 
 .section-divider {
-  background-color: #ffa000;
+  background-color: #ff9f00;
   height: 4px;
   margin-top: 54px;
 }
