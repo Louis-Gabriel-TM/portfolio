@@ -40,6 +40,14 @@ section {
   height: auto;
 }
 
+#clockwork {
+  height: 300px;
+}
+
+#clockwork-headline {
+  margin-top: 50px;
+}
+
 .section-divider {
   background-color: #ff9f00;
   height: 4px;
