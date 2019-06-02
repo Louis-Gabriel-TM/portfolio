@@ -1,5 +1,6 @@
 $(document).ready(function() {
   // Init Materialize CSS Components
-  $(".sidenav").sidenav();
   $(".parallax").parallax();
+  $(".scrollspy").scrollSpy();
+  $(".sidenav").sidenav();
 });

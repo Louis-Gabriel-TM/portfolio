@@ -46,6 +46,7 @@
 
   <body>
     <!-- NAVBAR -->
+
     <div class="navbar-fixed">
       <nav id="navbar">
         <div class="nav-wrapper cyan darken-4">
@@ -106,6 +107,7 @@
     </ul>
 
     <!-- MAIN CONTENT -->
+
     <main>
       <!-- Floating Action Nutton: to Contact section -->
 
@@ -139,9 +141,10 @@
         <div class="parallax"><img src="img/banner.jpg" alt="" /></div>
       </div>
 
-      <!-- Services section -->
+      <!-- SERVICES SECTION -->
+
       <div class="container">
-        <section class="section" id="services">
+        <section class="section scrollspy" id="services">
           <!-- headline -->
           <div class="section-start row center">
             <h4 class="header col s12 light">
@@ -196,23 +199,24 @@
         </section>
       </div>
 
-      <!-- Technologies section -->
-      <section class="section" id="technos">
-        <!-- Clockwork image with parallax effect -->
-        <div class="parallax-container" id="clockwork">
-          <div class="section no-pad-bot">
-            <div class="container">
-              <div class="row center" id="clockwork-headline">
-                <h4 class="section-start col s12 white-text light">
-                  Une approche d'artisan du code, au large panel d'outils
-                </h4>
-              </div>
+      <!-- Clockwork image with parallax effect -->
+      <div class="parallax-container" id="clockwork">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center" id="clockwork-headline">
+              <h4 class="section-start col s12 white-text light">
+                Une approche d'artisan du code, au large panel d'outils
+              </h4>
             </div>
           </div>
-
-          <div class="parallax"><img src="img/clockwork.jpg" alt="" /></div>
         </div>
 
+        <div class="parallax"><img src="img/clockwork.jpg" alt="" /></div>
+      </div>
+
+      <!-- TECHNOLOGIES SECTION -->
+
+      <section class="section scrollspy" id="technos">
         <!-- Technologies -->
         <div class="container">
           <!-- headline -->
@@ -225,7 +229,7 @@
           <div class="row">
             <div class="col s12 offset-l1 l10 offset-xl2 xl8">
               <!-- Python card -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -250,7 +254,7 @@
               </div>
 
               <!-- Django -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -276,7 +280,7 @@
               </div>
 
               <!-- Flask -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -302,7 +306,7 @@
               </div>
 
               <!-- HTML / CSS -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -328,7 +332,7 @@
               </div>
 
               <!-- JavaScript -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -353,8 +357,34 @@
                 </div>
               </div>
 
+              <!-- jQuery -->
+              <div class="card col offset-s1 s10 m4 z-depth-5">
+                <div class="card-image waves-effect waves-light">
+                  <img
+                    class="activator"
+                    src="img/logo_jquery.jpg"
+                    alt="Logo cliquable de la bibliotèque jQuery"
+                  />
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title cyan-text text-darken-4">
+                    jQuery
+                    <i
+                      class="material-icons small 
+                      right"
+                      >keyboard_arrow_down</i
+                    >
+                  </span>
+                  <br />
+                  <p>
+                    La bibliothèque de référence pour simplifier l'écriture du
+                    code JavaScript.
+                  </p>
+                </div>
+              </div>
+
               <!-- MySQL / PostgreSQL -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -379,34 +409,8 @@
                 </div>
               </div>
 
-              <!-- jQuery -->
-              <div class="card col offset-s1 s10 m4">
-                <div class="card-image waves-effect waves-light">
-                  <img
-                    class="activator"
-                    src="img/logo_jquery.jpg"
-                    alt="Logo cliquable de la bibliotèque jQuery"
-                  />
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title cyan-text text-darken-4">
-                    jQuery
-                    <i
-                      class="material-icons small 
-                    right"
-                      >keyboard_arrow_down</i
-                    >
-                  </span>
-                  <br />
-                  <p>
-                    La bibliothèque de référence pour simplifier l'écriture du
-                    code JavaScript.
-                  </p>
-                </div>
-              </div>
-
               <!-- Bootstrap -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -433,7 +437,7 @@
               </div>
 
               <!-- Materialize CSS -->
-              <div class="card col offset-s1 s10 m4">
+              <div class="card col offset-s1 s10 m4 z-depth-5">
                 <div class="card-image waves-effect waves-light">
                   <img
                     class="activator"
@@ -463,15 +467,78 @@
         </div>
       </section>
 
+      <!-- Clockwork image with parallax effect -->
+
+      <div class="parallax-container" id="clockwork">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center" id="clockwork-headline">
+              <h4 class="section-start col s12 white-text light">
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="parallax"><img src="img/clockwork.jpg" alt="" /></div>
+      </div>
+
+      <!-- PORTFOLIO SECTION -->
+
+      <section class="section scrollspy" id="portfolio">
+        <div class="container">
+          <!-- headline -->
+          <div class="row center">
+            <h2 class="header col s12 cyan-text text-darken-4">
+              Mes réalisations
+            </h2>
+          </div>
+
+          <div class="row">
+            <div class="col s12">
+              <!-- MacGyver Maze -->
+              <div class="card col s12 m6 l4">
+                <div class="card-image">
+                  <img
+                    src="img/p3.jpg"
+                    alt="Image du projet étudiant MacGyver Maze"
+                  />
+                  <a
+                    class="btn-floating halfway-fab cyan darken-4 waves-effect waves-light"
+                    href="https://github.com/Louis-Gabriel-TM/P3_MacGyverMaze"
+                    title="Lien vers le repo GitHub du projet MacGyver Maze"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+                <div class="card-content">
+                  <span class="card-title cyan-text text-darken-4"
+                    >MacGyver Maze</span
+                  >
+                  <p>
+                    Un jeu de labyrinthe basique programmé en orienté objet.
+                  </p>
+                  <br />
+                  <p>
+                    <span class="tag-project">Projet étudiant</span>
+                    <span class="tag">POO</span>
+                    <span class="tag">Python</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+
+      <!-- CONTACT SECTION -->
+
       <div class="row">
         <div class="section-divider col s2 offset-s5"></div>
       </div>
-
-      <!-- Portfolio section -->
-
-      <!-- About section -->
-
-      <!-- Contact section -->
 
       <!-- to be continued panel -->
       <div class="container">
