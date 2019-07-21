@@ -53,6 +53,7 @@ section {
 }
 
 .tag,
+.tag-link,
 .tag-project {
   background-color: #ff6f00;
   color: white;
@@ -60,6 +61,11 @@ section {
   line-height: 2.4em;
   padding: 2px 4px 3px 4px;
   border-radius: 4px;
+}
+
+.tag-link:hover {
+  background-color: #ff9f00;
+  cursor: pointer;
 }
 
 .tag-project {
